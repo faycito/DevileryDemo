@@ -17,7 +17,7 @@ const GoogleMapReact: React.FC<any> = (props: any) => {
 	return (
 		<div style={{height: '100vh', width:'100vw'}}>  
 			<GoogleMap
-				bootstrapURLKeys={{key: 'AIzaSyBHz2tC_hTPV9DFTrvXRA3yYo72NQIzQ3w'}}
+				bootstrapURLKeys={{key: 'YOUR_GOOLE_MAPS_API_KEY'}}
 				defaultZoom={16}
 				defaultCenter={{
 					lat: props.latitude || -12.0194509,
